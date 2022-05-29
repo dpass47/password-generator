@@ -1,0 +1,133 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	background: #1f2937;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+h2 {
+	margin-top: 0;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* .passwords {
+    margin-top: 10px;
+} */
+
+.hint {
+	font-size: 14px;
+	color: #e4e4e4;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	opacity: 0.2;
+}
+
+.accent-text {
+	color: #6d28d9;
+	display: block;
+}
+
+.container {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.gen-btn {
+	width: 220px;
+	height: 40px;
+	border: none;
+	border-radius: 8px;
+	background-color: #6d28d9;
+	color: #fff;
+	align-items: center;
+	display: flex;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.gen-btn:active {
+	background-color: #5929ac;
+}
+
+.gen-btn:hover {
+	animation: pulsate 2s ease-in-out;
+}
+
+@keyframes pulsate {
+	0% {
+		box-shadow: 0 0 25px #5929ac, 0 0 50px #3629ac;
+	}
+}
+
+.lightning-icon {
+	margin: 0 10px;
+}
+
+.pass-field {
+	background-image: url("../icons/dot-icon.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-color: #273549;
+	padding: 15px 100px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 25px;
+	text-align: center;
+	width: 100px;
+	margin-top: 5px;
+	border: none;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.pass-field::selection {
+	background-color: transparent;
+}
+
+.pass-field:active,
+.pass-field:focus {
+	outline-color: #6d28d9;
+	outline-style: solid;
+}
+
+.dot-icon {
+	width: 20px;
+	height: 5px;
+	vertical-align: middle;
+}
+
+.copy-btn {
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #1f2a3a;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px;
+}
+
+.user-num {
+	background-color: transparent;
+	border: #e4e4e4 solid 1px;
+	color: #fff;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Generate a <span class="accent-text">random password</span></h1>
+                <h2>Never use an insecure password again.</h2>
+            </header>
+            <button class="gen-btn"><img src="icons/lightning-icon.png" alt="lightning icon" class="lightning-icon">Generate passwords</button>
+            <p>Password Length: <input type="number" min="6" max="12" class="user-num" value="6"></p>
+            <section class="passwords">
+                <p><input type="text" readonly class="pass-field accent-text"><input type="text" readonly class="pass-field accent-text"></p>
+                <p><input type="text" readonly class="pass-field accent-text"><input type="text" readonly class="pass-field  accent-text"></p>
+            </section>
+            <p class="hint">Double click to copy password</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
